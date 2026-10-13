@@ -1,0 +1,9 @@
+application:
+  subdomain: yigezi
+  multi_instance: false
+  # 纯静态站点：整个 dist 目录随包发布，由微服直接从包内容里读
+  public_path:
+    - /
+  upstreams:
+    - location: /
+      backend: file:///lzcapp/pkg/content/

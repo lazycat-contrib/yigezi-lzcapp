@@ -1,0 +1,18 @@
+package: cloud.lazycat.app.yigezi
+version: 1.0.0
+name: 一个字的一生
+description: "Oracle-bone → small seal → traditional → simplified: type any Chinese character and read its form, sound, meaning and family on one page. 10,249 seal forms, 1,425 oracle-bone forms, 9,815 Shuowen entries. Offline. MIT."
+min_os_version: 1.5.0
+homepage: https://github.com/Ivan666jjj/yigezi
+author: Ivan666jjj
+license: MIT
+locales:
+  zh:
+    name: "一个字的一生"
+    description: "输入任意汉字，一页看完它的形、音、义、族：甲骨文→小篆→繁体→简体四体时间轴、中古音与上古音、《说文解字》原文与谐声字族。收录 10249 小篆 / 1425 甲骨文 / 9815 条《说文》，离线可用。"
+  zh_CN:
+    name: "一个字的一生"
+    description: "输入任意汉字，一页看完它的形、音、义、族：甲骨文→小篆→繁体→简体四体时间轴、中古音与上古音、《说文解字》原文与谐声字族。收录 10249 小篆 / 1425 甲骨文 / 9815 条《说文》，离线可用。"
+  en:
+    name: "The Life of a Chinese Character"
+    description: "Type any Chinese character and see its 3000-year life on one page: oracle-bone script, small seal, traditional and simplified forms, plus Middle/Old Chinese phonology and the Shuowen definition. Fully offline."

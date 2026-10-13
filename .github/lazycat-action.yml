@@ -1,0 +1,28 @@
+version: 1
+
+project:
+  root: .
+  build_config: lzc-build.yml
+  package_file: package.yml
+  output: dist/yigezi.lpk
+  target_arch: amd64
+
+update:
+  strategy: publish
+  allow_downgrade: false
+  # 纯静态站点，没有容器镜像：版本来自本仓库的 package.yml / tag
+  version_source:
+    type: git
+
+build:
+  toolchains: []
+  run_buildscript: false
+
+stores:
+  official:
+    enabled: false
+  private:
+    enabled: true
+    skip_if_version_exists: true
+    name: 一个字的一生
+    summary: "一个字的一生：甲骨文→小篆→繁体→简体四体演变 + 音韵 + 《说文》释义 + 谐声字族，纯静态离线可用。"
